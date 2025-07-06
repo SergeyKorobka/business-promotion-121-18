@@ -73,6 +73,17 @@ img {
   margin: 0 auto;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.94;
+  color: #173a56;
+}
+
 /*#endregion Common*/
 
 /*#region Benefits*/
@@ -128,3 +139,126 @@ img {
   flex-shrink: 0;
 }
 /*#endregion Benefits*/
+
+/*#region Footer*/
+
+.page-footer {
+  padding: 50px 0 40px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+}
+
+.logo-wrapper{
+  margin-right: auto;
+}
+
+.footer-logo {
+  margin-bottom: 18px;
+}
+
+.social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.social-item {
+  width: 40px;
+  height: 40px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-color: #edfffc;
+  color: #02897a;
+  transition: color 200ms linear, background-color 200ms linear;
+}
+
+.social-icon {
+  fill: transparent;
+  stroke: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #02897a;
+  color: #edfffc;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 129px;
+  margin-right: 83px;
+}
+
+.footer-title {
+  margin-bottom: 8px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.footer-nav-link {
+  line-height: 2.19;
+}
+
+.footer-form-title {
+  max-width: 280px;
+  margin-bottom: 30px;
+}
+
+.footer-form-field {
+  position: relative;
+  display: block;
+  margin-bottom: 25px;
+}
+
+.footer-form-input {
+  padding-left: 42px;
+  padding-right: 20px;
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  width: 325px;
+  height: 48px;
+  background: transparent;
+}
+
+.footer-form-input::placeholder {
+  color: #02897a;
+}
+
+.footer-form-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: #02897a;
+}
+
+.footer-form-btn {
+  min-width: 131px;
+  height: 39px;
+  padding: 0 15px;
+  border-radius: 4px;
+
+  font-weight: 700;
+  color: #fff;
+  background-color: #02897a;
+}
+
+.footer-copy {
+  width: 100%;
+  text-align: center;
+  line-height: 1.88;
+}
+
+/*#endregion Footer*/
